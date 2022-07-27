@@ -15,7 +15,7 @@ def newFile():
                 file = execFiles[i]
                 # Customer age between 40 and 59 
                 if int(execFiles[i]["age"]) >= 40 and int(execFiles[i]["age"]) <= 59:
-                    f1.write(file["name"] + ', ' + file['phone'] + ', ' + file['email'])
+                    f1.write(file["name"] + ', ' + file["phone"] + ', ' + file["email"])
             f1.close()
         f.close()
 
